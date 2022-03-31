@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <header-comp></header-comp>
+    <div><header-comp></header-comp></div>
+    <div>{{ isAuth }}</div>
     <router-view />
     <footer-view></footer-view>
   </div>
@@ -11,10 +12,20 @@ import HeaderComp from "./components/HeaderComp.vue";
 
 import FooterView from "./components/FooterView.vue";
 
+// import SidebarComp from "./components/SidebarComp.vue";
+import { mapGetters } from "vuex";
 export default {
   components: {
     HeaderComp,
     FooterView,
+    // Side,
+  },
+
+  computed: {
+    ...mapGetters(["isAuth"]),
+  },
+  mounted() {
+    this.$store.dispatch("test");
   },
 };
 </script>

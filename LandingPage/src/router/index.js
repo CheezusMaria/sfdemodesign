@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import SignIn from "../views/SignIn.vue";
 import SignUp from "../views/SignUp.vue";
+import investorPage from "../views/investorPage.vue";
 
 Vue.use(VueRouter);
 
@@ -11,6 +12,11 @@ const routes = [
     path: "/",
     name: "home",
     component: HomeView,
+  },
+  {
+    path: "/investor",
+    name: "investor",
+    component: investorPage,
   },
   {
     path: "/signin",
@@ -33,8 +39,7 @@ const routes = [
   },
 ];
 
-const router = new VueRouter({
+export const router = new VueRouter({
   routes,
+  mode: "history",
 });
-
-export default router;

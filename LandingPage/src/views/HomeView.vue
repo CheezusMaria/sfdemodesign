@@ -33,7 +33,7 @@
           :img-src="require('../assets/1.jpg')"
         >
           <p>
-            Startupfon tek şehir, tek tip yatırımcı değil, her coğrafyadan ve
+            encoremedia tek şehir, tek tip yatırımcı değil, her coğrafyadan ve
             her geçmişten gelen yatırımcı havuzu sayesinde dünyayaya açılma
             imkanı sağlamaktadır.
           </p>
@@ -46,7 +46,7 @@
           img-alt="Blank image"
         >
           <p>
-            Yatırım sonrası girişimciyi yalnız bırakmayan tecrübeli Startupfon
+            Yatırım sonrası girişimciyi yalnız bırakmayan tecrübeli encoremedia
             ekibi, desteğiyle girişimcinin yanında olmakta ve projeyi takip
             etmektedir.
           </p>
@@ -59,7 +59,7 @@
           img-alt="Blank image"
         >
           <p>
-            Tüm değerlendirmeler, Startupfon ekibinin 6 yıllık tecrübesi ve
+            Tüm değerlendirmeler, encoremedia ekibinin 6 yıllık tecrübesi ve
             binlerce girişim değerlendirmesi birikimi ışığında yapılır.
           </p>
         </b-carousel-slide>
@@ -87,7 +87,7 @@
     <div class="center">
       <h1 class="text-center why">
         <a href="https://usecheck.com/" class="btn-shine" target="_blank"
-          >Neden Startupfon?</a
+          >Neden logo?</a
         >
       </h1>
       <div class="emptySection"></div>
@@ -147,7 +147,7 @@
           class="mb-2"
         >
           <b-card-text class="cardText">
-            Startupfon tek şehir, tek tip yatırımcı değil, her coğrafyadan ve
+            encoremedia tek şehir, tek tip yatırımcı değil, her coğrafyadan ve
             her geçmişten gelen yatırımcı havuzu sayesinde dünyayaya açılma
             imkanı sağlamaktadır.
           </b-card-text>
@@ -161,7 +161,7 @@
           class="mb-2"
         >
           <b-card-text class="cardText">
-            Yatırım sonrası girişimciyi yalnız bırakmayan tecrübeli Startupfon
+            Yatırım sonrası girişimciyi yalnız bırakmayan tecrübeli encoremedia
             ekibi, desteğiyle girişimcinin yanında olmakta ve projeyi takip
             etmektedir.
           </b-card-text>

@@ -2,7 +2,7 @@
   <nav class="navbar sticky-top navbar-light bg-dark1">
     <a class="navbar-brand" href="#">
       <img
-        src="../assets/startupfon-logo.png"
+        src="@/assets/encore.jpg"
         width="auto"
         height="auto"
         class="d-inline-block align-top mobile-img"
@@ -53,6 +53,16 @@
     </div>
   </nav>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      auth: false,
+    };
+  },
+};
+</script>
 
 <style>
 .bg-dark1 {
